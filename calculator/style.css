@@ -1,0 +1,74 @@
+
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("./calckitty.jpg");
+    background-size: cover;
+
+
+
+
+}
+
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("./kitty2.jpg");
+    border-radius: 15px;
+    max-width:500px;
+    overflow:hidden;
+
+}
+
+#display{
+    width:100%;
+    padding:20px;
+    font-size: 5rem;
+    text-align: left;
+    border:none;
+    background: url("./kittytop.jpg");
+    color:white;
+
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 20px;
+}
+
+button{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    border: 1.5px solid pink;
+    background-color: hsl(26, 93%, 89%);
+    color: rgb(128, 118, 118);
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: hsl(332, 60%, 77%);
+}
+
+button:active{
+    background-color: hsl(332, 60%, 83%);
+}
+
+.op-button{
+    background-color: hsl(327, 44%, 35%);
+}
+
+.op-button:hover{
+    background-color: hsl(327, 59%, 45%);
+}
+
+.op-button:active{
+    background-color: hsl(57, 54%, 58%);
+}
